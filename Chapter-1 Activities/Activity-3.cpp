@@ -1,5 +1,5 @@
 /* 
-* Problem Description - Write a function named mult() that accepts two floating-point numbers as a parameters,
+* Problem Description - Write a function named product() that acc two floating-point numbers as a parameters,
 * multiplies these two numbers and display the result.
 * 
 * Purpose: To demonstrate function parameter
@@ -30,7 +30,7 @@ int main() {
 }
 
 // function definition
-void farewell(float num1, float num2) // function header
+void mult(float num1, float num2) // function header
 {
-    cout<<"The product of the two numbers is "<<num1*num3<<endl;
+    cout<<"The product of "<<num1<<" and "<<num2<<" is "<<num1*num2<<"\n\n";
 }  
