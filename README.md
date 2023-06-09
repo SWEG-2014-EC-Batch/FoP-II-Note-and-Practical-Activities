@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h1><b> FoP II Practical Activities </b></h1>
+  <h1><b> FoP II Practical Activities and Summary Note</b></h1>
 </div>
 
 
