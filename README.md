@@ -7,6 +7,14 @@
 
 ## 📗 Table of Contents
 
-- **Chapter-1 Functions**
-    * [Activity 1](./Chapter-1%20Activities/Activity-1.cpp): Function Declaration, Definition and Calling
-    * **Activity 2:** Function Parameters and Return 
+### 📖 Chapter-1 Functions
+
+  <details>
+    <summary><b>Activity 1: Function Declaration, Definition and Calling<b></summary>
+      <ul>
+        <li><a href="./Chapter-1 Activities/Activity-1.cpp">Summary Note</a></li>
+        <li><a href="./Chapter-1 Activities/Activity-1.cpp">Example Code 1</a></li>
+        <li><a href="./Chapter-1 Activities/Activity-1.cpp">Example Code 2</a></li>
+      </ul>
+  </details>
+
