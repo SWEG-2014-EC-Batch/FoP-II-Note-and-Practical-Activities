@@ -1,5 +1,5 @@
 /* 
-* Problem Description - Write a function named product() that acc two floating-point numbers as a parameters,
+* Write a function named mult() that accepts two floating-point numbers as a parameters,
 * multiplies these two numbers and display the result.
 * 
 * Purpose: To demonstrate function parameter
