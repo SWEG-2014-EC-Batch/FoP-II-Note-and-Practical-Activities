@@ -1,10 +1,10 @@
 ## 📗 Table of Contents
 
 - [What is Function?](#what-is-function)
-- [Components of a function](#components)
-- [Function declaration and definition](#declaration-and-definition)
-- [Functions calling and Excution](#call-excution)
-- [Parameters and return type](#parameters-and-return)
+- [Components of a Function](#components)
+- [Function Declaration and Definition](#declaration-and-definition)
+- [Functions Calling and Excution](#call-excution)
+- [Parameters and Return Type](#parameters-and-return)
 
 # 📖 Contents
 
