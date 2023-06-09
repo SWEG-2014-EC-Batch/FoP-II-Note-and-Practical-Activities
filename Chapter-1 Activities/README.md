@@ -64,5 +64,10 @@ The figure below depict the overall process of function calling and excution.
      * literals
      * expression
 
+### 🖥️ Categories of User Defined Functions
+
+![image](https://github.com/SWEG-2015-EC-Batch/FoP-II-Practical-Activities/assets/73167960/e931a55d-e0c9-4789-be97-e0b151a5a78f)
+
+
 
 
