@@ -45,7 +45,8 @@ The figure below depict the overall process of function calling and excution.
 
 ![image](https://github.com/SWEG-2015-EC-Batch/FoP-II-Practical-Activities/assets/73167960/aa8fb8eb-e1f8-41a3-b70a-0adc65e35436)
 
-**Note:** A function can be called by either of the following data or combining them. Refer through **Exercise 3 - 5**__</a> 
+**Note:** A function can be called by either of the following data or combining them. Refer through **Exercise 3 - 5**</a> 
+
      * variable/constant
      * literals
      * expression
@@ -57,7 +58,8 @@ The figure below depict the overall process of function calling and excution.
 
 ![image](https://github.com/SWEG-2015-EC-Batch/FoP-II-Practical-Activities/assets/73167960/3182b8ab-ecc8-4421-9b48-c7025ca78d95)
 
-**Note** - A function can return any of the following
+**Note** - A function can return any of the following. Refer through **Exercise 3 - 5**</a>
+
      * variable/constant
      * literals
      * expression
