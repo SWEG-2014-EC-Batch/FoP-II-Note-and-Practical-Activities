@@ -79,10 +79,15 @@ Parameters are either Actual parameters or Formal Parameters. The figure below d
 
 There are two ways to pass a parameter to a function: by value and by reference (using either address of or pointer).
 
-- **Function Call by Value** - In the function call by value method, the arguments retain their original value outside the function. In this method, actual arguments are copied into formal arguments. If any changes are made to the arguments inside the function, those changes do not affect the values of arguments outside the function.
-- **Function Call by Reference** - In this method, the address of actual arguments is passed to formal arguments. The address of parameters is used to access their value. Changes made to the arguments in the function are reflected outside the function too. As we are not passing a copy of actual arguments, any changes made to the arguments during function processing will be made at the actual memory location of the arguments. When the value of a variable is changed at its actual memory location, it is updated everywhere (both inside and outside the function).
+- **Parameter pass by Value** - In the function call by value method, the arguments retain their original value outside the function. In this method, actual arguments are copied into formal arguments. If any changes are made to the arguments inside the function, those changes do not affect the values of arguments outside the function.
+  
+- **Parameter pass by Reference** - In this method, the address of actual arguments is passed to formal arguments. The address of parameters is used to access their value. Changes made to the arguments in the function are reflected outside the function too. As we are not passing a copy of actual arguments, any changes made to the arguments during function processing will be made at the actual memory location of the arguments. When the value of a variable is changed at its actual memory location, it is updated everywhere (both inside and outside the function).
 
-![image](https://github.com/SWEG-2015-EC-Batch/FoP-II-Practical-Activities/assets/73167960/2394c2bf-02a4-4ec1-9c1f-79f9af156b41)
+ <div align="center">
+    <img src="https://www.scaler.com/topics/images/difference-between-call-by-value-and-call-by-reference-in-C-1.gif">
+    <br>
+    <img src="https://github.com/SWEG-2015-EC-Batch/FoP-II-Practical-Activities/assets/73167960/685f82fa-dfd4-4da0-9964-d6bb35376a63">
+ </div>
 
 
 ### 🖥️ Default Arguments <a name="default-arguments"></a>
