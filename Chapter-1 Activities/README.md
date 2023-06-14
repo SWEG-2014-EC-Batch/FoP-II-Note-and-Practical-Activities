@@ -124,11 +124,13 @@ Function overloading is a concept that allows two or more functions to have diff
  <img src="https://github.com/SWEG-2015-EC-Batch/FoP-II-Practical-Activities/assets/73167960/a25dc22b-7c03-4452-8924-a97a6166e039">
 </div>
 
+**Note:**
+
+Functions with different return types and identical parameters can not be overloaded. The determination to call a particular function is decided at the compile time. Function overloading not only improves code readability and reusability but also makes code faster and reduces memory space.
+
 **Example**
 
 <div align="center">
- <img src="https://github.com/SWEG-2015-EC-Batch/FoP-II-Practical-Activities/assets/73167960/b9f66d6f-8dfc-4e3a-8c4d-3ce03e45f35e">
+ <img width="750" src="https://github.com/SWEG-2015-EC-Batch/FoP-II-Practical-Activities/assets/73167960/b9f66d6f-8dfc-4e3a-8c4d-3ce03e45f35e">
 </div>
 
-**Note:**
-Functions with different return types and identical parameters can not be overloaded. The determination to call a particular function is decided at the compile time. Function overloading not only improves code readability and reusability but also makes code faster and reduces memory space.
