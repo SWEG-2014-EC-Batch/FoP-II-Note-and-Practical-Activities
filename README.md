@@ -9,6 +9,12 @@
 
 ### 📖 Chapter-1 Functions
 
+<b>Online Blogs and References<b>
+<ul>
+  <li><a href="https://www.scaler.com/topics/cpp/functions-in-cpp/">Functions in C++</a></li>
+  <li><a href="https://www.scaler.com/topics/cpp/library-functions-in-cpp/">Library Functions in C++ </a></li>
+</ul>
+
 <b>Activity 1: Function Declaration, Definition, and Calling<b>
 <ul>
   <li><a href="./Chapter-1 Activities/README.md#what-is-function">Summary Note</a></li>
@@ -29,6 +35,7 @@
 
 <b>Activity 3: User-Defined Library Functions<b>
 <ul>
+   <li><a href="./Chapter-1 Activities/user_defined_header/create-header-file.md">Create your own Header File in C/C++</a></li>
    <li><a href="./Chapter-1 Activities/user_defined_header">Example Code</a></li>
 </ul>
 
