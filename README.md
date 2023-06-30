@@ -57,7 +57,6 @@
     <li><a href="./Chapter-3 Exercises/example-1.cpp">Example 4: Write to a binary file</a></li>
     <li><a href="./Chapter-3 Exercises/example-2.cpp">Example 5: Read from a binary file </a></li>
     <li><a href="./Chapter-3 Exercises/example-1.cpp">Example 6: Random file access</a></li>
-    <li><a href="./Chapter-3 Exercises/example-2.cpp">Example 7: Read from a text file </a></li>
 </ul>
 <b>MCQs<b>
 
