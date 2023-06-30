@@ -63,7 +63,165 @@
    - **_Step 4: Perform File Read/Write Operations_**
    - **_Step 5: Closing a file_**
    
-- To perform file read and write (I/O), it is mandatory to include the header file **fstream.h** which defines several classes and functions. 
+- To perform file read and write (I/O), it is mandatory to include the header file **fstream.h** which defines several classes and functions.
+
+### (a) Declaration of File Stream Object 
+
+- In order to process files through the program, a logical file must be created on the RAM.
+- This logical file is nothing but a file data type.
+- **Syntax:**
+  
+      File_Stream File_Stream_Object;
+  - Where the **“File_Stream”** refers to either of the three file stream classes **ifstream, ofstream, fstream**
+  - On the other hand the **“File_Stream_Object”** is referring to any valid identifier
+
+- **Example:**
+
+        fstream file; 	//file stream object both for reading and writing
+
+### (b) Opening a file
+
+- In order to perform read and write operations on the file through a program, the file should be opened.
+- Opening a file attaches the stream link to a specific file.
+
+- **Syntax:**
+  
+      File_Stream_Object.Open(“FileName”, File modes) ; 
+  - **“File Name”** - refers to the name of the file on which we are going to perform file operations.
+  - It should be provided with it’s full path (where the file is located) and file extension
+  - **“File modes”** – specify the for what purpose the file is opened and it can be a single mode or multiple file modes. 
+
+- **Example:**
+
+        fstream file; 	//file stream object both for reading and writing
+
+### Note
+- the File stream object creation and opening of a file can be merged and performed in a single statement
+
+        fstream file (“myfile.txt”,  ios::in | ios::out) //file can be opened while declaring the stream object like this
+- If the source code file and the file you are operating are raised in the same folder the “file name” is enough to open the file.
+- Otherwise you should provide the proper path of the file. 
+
+
+### (c) Check for the success of file opening 
+
+- When opening a file, especially opening a file for reading, is it critical to test whether the open operation succeeded or not.
+- There are several alternatives available to check for the success of file opening
+  
+**Alternative 1:** comparing stream object with NULL
+
+        fstream file(“sales.txt”);
+        if (file != NULL) {
+           // perform file read/write
+        } else {
+           //Through error
+        }
+  
+**Alternative 2:** Check if the stream object is not empty
+
+        fstream file(“sales.txt”);
+        if (file) {
+           // perform file read/write
+        } else {
+           //Through error
+        }
+
+**Alternative 3:** using is_open() file state function 
+
+        fstream file(“sales.txt”);
+        if (file.is_open()) {
+           // perform file read/write
+        } else {
+           //Through error
+        }
+
+### (d) File Read/Write Operations 
+
+**(I) Write to a file**
+
+- The file should open in writing mode **(ios::out)**
+- The following three alternatives are available to write to file
+
+**Alternative 1:** Using the **_Output stream object_** in combination with **_<< (insertion operator)_**
+- **Example**
+  
+        ofstream Out;
+        Out<<variable;
+        out<<“Hello, World);
+  
+**Alternative 2:** Using the **write()** function
+- **Syntax:**
+  
+        streamObject.write(string data, size)
+
+- **Example:**
+  
+       ifstream Out;
+       Out.write (“Hello, World”, 10);
+
+**Alternative 3:** Using the **put()** function which used to write one character only
+- **Example:**
+  
+       ifstream Out;
+       Out.put(character);
+      
+**(II) Read from a file**
+
+- The file should open in reading mode **(ios::in)**
+- The following three alternatives are available to read data from a file
+
+**Alternative 1:** Using the **_Input stream object_** in combination with **_>> (extraction operator)_**
+- **Example**
+  
+        ifstream Inf;
+        Inf>>variable;
+  
+**Alternative 2:** Using the **read()** function
+- **Syntax:**
+  
+        streamObject.read(string data, size)
+
+- **Example:**
+  
+       ifstream Inf;
+       Inf.read (“Hello, World”, 10);
+
+**Alternative 3:** Using the **get() or getline()** function which is used to read one character and one line string respectively
+- **Example:**
+  
+       ifstream Inf;
+       inf.get(character); or
+       inf.get(string data, size); or
+       inf.getline(string data, size);
+
+### Note
+
+- **read()** and **write()** functions are binary functions used to write or read an object or record (sequence of bytes) to/from a binary file mainly.
+- To write to and/or read from a binary, the file should open in a binary file mode **(ios::binary)**
+
+### (d) Closing a file 
+
+**Why we need to close a file?**
+- To make the stream object to be free and can be used with more than one file.  
+- To avoid a logical error that will occur because of not closing the opened file
+- How to close a file?
+   - using either **close()**  or **clear()** functions
+
+- **Syntax:**
+  
+       stream-object.close();
+           or
+       stream-object.clear()
+
+- **Example:**
+
+        fstream myfile;
+       myfile.close();
+           or
+       myfile.clear();
+    
+- In both cases, the file that opened using the “myfile” file stream will be closed 
+
 
 ### 🖥️ File modes/offsets <a name="file_modess"></a>
 
