@@ -64,7 +64,7 @@
 
 <b>MCQ</b>
 <ul>
-  <li><a href="./Chapter-3  Note and Exercises/mcq.md">Multiple Choice Questions</a></li>
+  <li><a href="./Chapter-3 Note and Exercises/mcq.md">Multiple Choice Questions</a></li>
 </ul>
 
 
