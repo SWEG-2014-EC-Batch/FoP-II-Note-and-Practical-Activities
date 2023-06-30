@@ -39,3 +39,26 @@
    <li><a href="./Chapter-1 Activities/user_defined_header">Example Code</a></li>
 </ul>
 
+### 📖 Chapter-3 File Management
+
+<b>Notes<b>
+<ul>
+   <li><a href="./Chapter-2 Activities/README.md#parameters-and-return">Summary Note</a></li>
+   <li><a href="./Chapter-2 Activities/README.md#parameters-and-return">Summary Note</a></li>
+   <li><a href="./Chapter-2 Activities/README.md#parameters-and-return">Summary Note</a></li>
+   <li><a href="./Chapter-2 Activities/README.md#parameters-and-return">Summary Note</a></li>
+</ul>
+
+<b>Examples<b>
+<ul>
+    <li><a href="./Chapter-2 Activities/example-1.cpp">Example 1: Write to a text file</a></li>
+    <li><a href="./Chapter-2 Activities/example-2.cpp">Example 2: Read from a text file </a></li>
+    <li><a href="./Chapter-2 Activities/example-3.cpp">Example 3: get() and put() functions </a></li>
+    <li><a href="./Chapter-2 Activities/example-1.cpp">Example 4: Write to a binary file</a></li>
+    <li><a href="./Chapter-2 Activities/example-2.cpp">Example 5: Read from a binary file </a></li>
+    <li><a href="./Chapter-2 Activities/example-1.cpp">Example 6: Random file access</a></li>
+    <li><a href="./Chapter-2 Activities/example-2.cpp">Example 7: Read from a text file </a></li>
+</ul>
+<b>MCQs<b>
+
+
