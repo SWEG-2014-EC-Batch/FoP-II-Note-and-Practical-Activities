@@ -17,14 +17,14 @@
 
 <b>Activity 1: Function Declaration, Definition, and Calling<b>
 <ul>
-  <li><a href="./Chapter-1 Note and Activities/README.md#what-is-function">Summary Note</a></li>
+  <li><a href="./Chapter-1 Note and Activities/README.md#what-is-function">Note: What is a function? Why?</a></li>
   <li><a href="./Chapter-1 Note and Activities/Exercise-1.cpp">Example Code 1: Function declaration and definition </a></li>
   <li><a href="./Chapter-1 Note and Activities/Exercise-2.cpp">Example Code 2: Function declaration and definition </a></li>
 </ul>
       
 <b>Activity 2: Function parameters and return<b>
 <ul>
-   <li><a href="./Chapter-1 Note and Activities/README.md#parameters-and-return">Summary Note</a></li>
+   <li><a href="./Chapter-1 Note and Activities/README.md#parameters-and-return">Note: Parameters and Return Types</a></li>
     <li><a href="./Chapter-1 Note and Activities/Exercise-3.cpp">Example Code 1: Function parameters</a></li>
     <li><a href="./Chapter-1 Note and Activities/Exercise-4.cpp">Example Code 2: Function returns </a></li>
     <li><a href="./Chapter-1 Note and Activities/Exercise-5.cpp">Example Code 3: Function parameters and returns</a></li>
@@ -64,7 +64,7 @@
 
 <b>MCQ</b>
 <ul>
-  <li><a href="./Chapter-3 Exercises/mcq.md">Multiple Choice Questions</a></li>
+  <li><a href="./Chapter-3  Note and Exercises/mcq.md">Multiple Choice Questions</a></li>
 </ul>
 
 
