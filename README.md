@@ -43,23 +43,23 @@
 
 <b>Notes<b>
 <ul>
-   <li><a href="./Chapter-3 Activities/note.md#file_handling">File Handling (Management)</a></li>
-   <li><a href="./Chapter-3 Activities/note.md#stream_classes">C++ Stream Class Hierarchy Note</a></li>
-   <li><a href="./Chapter-3 Activities/note.md#file_types">Types of File</a></li>
-   <li><a href="./Chapter-3 Activities/note.md#file_manipulation">File Manipulation Process</a></li>
-   <li><a href="./Chapter-3 Activities/note.md#file_modess">File modes/offests</a></li>
-     <li><a href="./Chapter-3 Activities/note.md#random_access">File Random Access</a></li>
-   <li><a href="./Chapter-3 Activities/summary.md">Summary Note</a></li>
+   <li><a href="./Chapter-3 Note and Exercises/note.md#file_handling">File Handling (Management)</a></li>
+   <li><a href="./Chapter-3 Note and Exercises/note.md#stream_classes">C++ Stream Class Hierarchy Note</a></li>
+   <li><a href="./Chapter-3 Note and Exercises/note.md#file_types">Types of File</a></li>
+   <li><a href="./Chapter-3 Note and Exercises/note.md#file_manipulation">File Manipulation Process</a></li>
+   <li><a href="./Chapter-3 Note and Exercises/note.md#file_modess">File modes/offests</a></li>
+    <li><a href="./Chapter-3 Note and Exercises/note.md#random_access">File Random Access</a></li>
+    <li><a href="./Chapter-3 Note and Exercises/summary.md">Summary Note</a></li>
 </ul>
 
 <b>Examples<b>
 <ul>
-    <li><a href="./Chapter-3 Exercises/example-1.cpp">Example 1: Write to a text file</a></li>
-    <li><a href="./Chapter-3 Exercises/example-2.cpp">Example 2: Read from a text file </a></li>
-    <li><a href="./Chapter-3 Exercises/example-3.cpp">Example 3: Using gets(), get() and put() functions </a></li>
-    <li><a href="./Chapter-3 Exercises/example-1.cpp">Example 4: Write to a binary file</a></li>
-    <li><a href="./Chapter-3 Exercises/example-2.cpp">Example 5: Read from a binary file </a></li>
-    <li><a href="./Chapter-3 Exercises/example-1.cpp">Example 6: Random file access</a></li>
+    <li><a href="./Chapter-3 Note and Exercises/example-1.cpp">Example 1: Write to a text file</a></li>
+    <li><a href="./Chapter-3 Note and Exercises/example-2.cpp">Example 2: Read from a text file </a></li>
+    <li><a href="./Chapter-3 Note and Exercises/example-3.cpp">Example 3: Using gets(), get() and put() functions </a></li>
+    <li><a href="./Chapter-3 Note and Exercises/example-4.cpp">Example 4: Write to a binary file</a></li>
+    <li><a href="./Chapter-3 Note and Exercises/example-5.cpp">Example 5: Read from a binary file </a></li>
+    <li><a href="./Chapter-3 Note and Exercises/example-6.cpp">Example 6: Random file access</a></li>
 </ul>
 
 <b>MCQ</b>
